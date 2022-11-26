@@ -5,10 +5,10 @@ function Navbar() {
     return (
       <Nav defaultActiveKey="/home" as="ul">
         <Nav.Item as="li">
-          <Nav.Link href="/home">Who is Daniela?</Nav.Link>
+          <Nav.Link href="/src/components/about">Who is Daniela?</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="link-1">Masterpieces</Nav.Link>
+          <Nav.Link eventKey="/src/components/Projects">Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
           <Nav.Link eventKey="link-2">Call me, beep me</Nav.Link>
