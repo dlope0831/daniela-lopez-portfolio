@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     return (
@@ -11,10 +12,10 @@ function Navbar() {
           <Nav.Link href="#projects">Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="link-2">Call me, beep me</Nav.Link>
+          <Nav.Link eventKey="link-2">Contact Me</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link eventKey="link-3">The History</Nav.Link>
+          <Nav.Link eventKey="link-3">Resume</Nav.Link>
         </Nav.Item>
       </Nav>
     );
