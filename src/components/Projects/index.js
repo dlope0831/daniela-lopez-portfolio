@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <div>
-      <h3 id="projects">Projects</h3>
+      <h3 id="projects">Portfolio</h3>
     <CardGroup> 
       <ProjectCard
       imgRef = "SkyNet-Watch"
