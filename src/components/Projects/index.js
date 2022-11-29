@@ -6,8 +6,9 @@ import ProjectCard from '../ProjectCard';
 function Projects() {
 
   return (
-    <div>
-      <h3 id="projects">Portfolio</h3>
+
+    <div className="container mt-5">
+    <h2 className="mb-3" id="projects">Portfolio</h2>
     <CardGroup> 
       <ProjectCard
       imgRef = "SkyNet-Watch"

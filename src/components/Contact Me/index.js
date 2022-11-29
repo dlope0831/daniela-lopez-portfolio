@@ -4,7 +4,7 @@ import {validateEmail } from '../../utils/helpers';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send');
-  const [ errorMessage, setErrorMessage ] = useState('');
+  const [errorMessage, setErrorMessage ] = useState('');
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const onSubmit = (e) => {
@@ -21,7 +21,7 @@ const Contact = () => {
         if (e.target.name === 'email') {
           const isValid = validateEmail(e.target.value);
           console.log(isValid);
-          //isValid conditional statement
+          
           if(!isValid) {
             setErrorMessage('Your email is invalid');
           } else {
@@ -40,7 +40,7 @@ const Contact = () => {
   }
   return (
     <div className="container mt-5">
-      <h2 className="mb-3">Contact Me</h2>
+      <h2 className="mb-3" id="contact">Contact Me</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">

@@ -9,7 +9,7 @@ export const Footer = () => {
         justifyContent="between"
         alignItems="center"
         className="mx-auto py-4 flex-wrap"
-        style={{ width: '80%' }}
+        style={{ width: '40%' }}
       >
         <CDBBox display="flex" alignItems="center">
           <small className="ml-2">&copy; Daniela Lopez, 2022. All rights reserved.</small>
@@ -22,9 +22,10 @@ export const Footer = () => {
           <CDBBtn flat color="dark" className="p-2">
             <CDBIcon fab icon="linkedin" />
           </CDBBtn></CDBFooterLink>
+          <CDBFooterLink href="https://stackoverflow.com/users/19469535/daniela/">
           <CDBBtn flat color="dark" className="mx-3 p-2">
-            <CDBIcon fab icon="twitter" />
-          </CDBBtn>
+            <CDBIcon fab icon="stack-overflow" />
+          </CDBBtn></CDBFooterLink>
         </CDBBox>
     </CDBFooter>
   );

@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Navbar() {
     return (
-      <Nav defaultActiveKey="/home" as="ul">
+      <Nav className="justify-content-center"  defaultActiveKey="/home" as="ul">
         <Nav.Item as="li">
           <Nav.Link href="#about">About Me</Nav.Link>
         </Nav.Item>
