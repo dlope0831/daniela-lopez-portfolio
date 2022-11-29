@@ -14,7 +14,7 @@ function Navbar() {
           <Nav.Link href="#resume">Resume</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="#contact">Contact Me</Nav.Link>
         </Nav.Item>
       </Nav>
     );
