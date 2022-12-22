@@ -17,6 +17,7 @@ const Contact = () => {
       message: message.value,
     }  
     console.log(conFom)
+    //eslint-disable-next-line
     function handleChange(e) {
         if (e.target.name === 'email') {
           const isValid = validateEmail(e.target.value);
